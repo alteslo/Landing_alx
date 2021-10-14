@@ -1,0 +1,36 @@
+
+.wood_bg {
+    background-image: url(/Landing_alx/img/wood-texture-014.jpg);
+    background-size: cover;
+}
+
+a.menu_item {
+    position: relative;
+    color: azure;
+    text-decoration: none;
+  }
+  
+  a.menu_item::before {
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -5px;
+    width: 0;
+    height: 1.5px;
+    background-color: azure;
+    transition: all 0.35s ease-out;
+
+  }
+  
+  a.menu_item:hover:before {
+    width: 100%;
+  }
+  
+  .whitext {
+      color: azure;
+  }
+
+  .wp_bg {
+    background-image: url(/Landing_alx/img/wood_white.jpg);
+    background-size: cover;
+  }
