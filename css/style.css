@@ -1,36 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #1a1821;
+}
+
+.wraper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*--------------HEADER------------------------------------*/
+
+.header_wraper {
+    background-color: white;
+}
+
+.dropdown-divider {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------------Navbar------------------------------------*/
+
 .wood_bg {
-    background-image: url(/Landing_alx/img/wood-texture-014.jpg);
+    background-image: url(/img/wood-texture-02.jpg);
     background-size: cover;
 }
 
 a.menu_item {
     position: relative;
-    color: azure;
+    color: #1a1821;
     text-decoration: none;
-  }
+}
   
-  a.menu_item::before {
+a.menu_item::before {
     content: '';
     position: absolute;
     left: 0; 
     bottom: -5px;
     width: 0;
     height: 1.5px;
-    background-color: azure;
+    background-color: #1a1821;
     transition: all 0.35s ease-out;
-
-  }
+}
   
-  a.menu_item:hover:before {
+a.menu_item:hover:before {
     width: 100%;
-  }
+}
   
-  .whitext {
-      color: azure;
-  }
+.whitext {
+    color: azure;
+    white-space: nowrap;
+}
 
-  .wp_bg {
-    background-image: url(/Landing_alx/img/wood_white.jpg);
+.wp_bg {
+    background-image: url(/img/wood_white.jpg);
     background-size: cover;
-  }
-  
+}
+
+.jumbotron {
+    height: 591px;
+}
+
+
+.features_wraper {
+    background-color: #1a191e;
+}
+
+/*----------- Whitebox-------------*/
+
+.info_text_wraper {
+    display: flex;
+    justify-content: center;
+}
+
+/*--------- Carousel-------------*/
+
+.img_carusel {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.carusel_img_theme {
+    -webkit-box-shadow: 0px -2px 43px 1px rgba(215, 193, 165, 0.67);
+    -moz-box-shadow: 0px -2px 43px 1px rgba(215, 193, 165, 0.67);
+    box-shadow: 0px -2px 43px 1px rgba(215, 193, 165, 0.67);
+    border-radius: 30px;
+    transition: all 0.35s ease-out;
+}
+
+.carusel_img_theme:hover, .carusel_img_theme:active {
+    -webkit-box-shadow: 0px -2px 62px 12px rgba(215, 193, 165, 0.76);
+    -moz-box-shadow: 0px -2px 62px 12px rgba(215, 193, 165, 0.76);
+    box-shadow: 0px -2px 62px 12px rgba(215, 193, 165, 0.76);
+}
+
+.featurette-divider {
+    color: azure;
+}
