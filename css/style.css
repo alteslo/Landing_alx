@@ -14,11 +14,22 @@ body {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 721px) {
+    .wraper {
+        width: 100%;
+    }
+}
+
 /*--------------HEADER------------------------------------*/
 
-.header_wraper {
-    background-color: white;
+.wood_bg {
+    background-image: url(/img/wood-texture-02.jpg);
+    background-size: cover;
+    height: 591px;
+    min-width: 100%;
 }
+
+
 
 .dropdown-divider {
     margin: 0px;
@@ -27,9 +38,8 @@ body {
 
 /*--------------Navbar------------------------------------*/
 
-.wood_bg {
-    background-image: url(/img/wood-texture-02.jpg);
-    background-size: cover;
+.header_wraper {
+    background-color: white;
 }
 
 a.menu_item {
@@ -97,6 +107,13 @@ a.menu_item:hover:before {
     -webkit-box-shadow: 0px -2px 62px 12px rgba(215, 193, 165, 0.76);
     -moz-box-shadow: 0px -2px 62px 12px rgba(215, 193, 165, 0.76);
     box-shadow: 0px -2px 62px 12px rgba(215, 193, 165, 0.76);
+}
+
+.img_card {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    border-radius: 20px;
 }
 
 .featurette-divider {
