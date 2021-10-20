@@ -20,24 +20,12 @@ body {
     }
 }
 
-/*--------------HEADER------------------------------------*/
-
-.wood_bg {
-    background-image: url(/img/wood-texture-02.jpg);
-    background-size: cover;
-    height: 591px;
-    min-width: 100%;
+.whitext {
+    color: azure;
 }
 
 
-
-.dropdown-divider {
-    margin: 0px;
-    padding: 0px;
-}
-
-/*--------------Navbar------------------------------------*/
-
+/*--------------Navbar--------------------------------------------*/
 .header_wraper {
     background-color: white;
 }
@@ -62,34 +50,32 @@ a.menu_item::before {
 a.menu_item:hover:before {
     width: 100%;
 }
-  
-.whitext {
-    color: azure;
+
+.dropdown-divider {
+    margin: 0px;
+    padding: 0px;
 }
 
-.wp_bg {
-    background-image: url(/img/wood_white.jpg);
+/*--------------JUMBOTRON-------------------------------------------*/
+.wood_bg {
+    background-image: url(/img/wood-texture-02.jpg);
     background-size: cover;
-}
-
-.jumbotron {
     height: 591px;
+    min-width: 100%;
 }
-
 
 .features_wraper {
     background-color: #1a191e;
 }
 
-/*----------- Whitebox-------------*/
-
+/*-------------Whitebox----------------------------------------------*/
 .info_text_wraper {
     display: flex;
     justify-content: center;
 }
 
-/*--------- Carousel-------------*/
 
+/*---------------Carousel---------------------------------------------*/
 .img_carusel {
     max-width: 450px;
     max-height: 450px;
